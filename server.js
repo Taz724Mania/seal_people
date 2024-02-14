@@ -15,7 +15,7 @@ app.use(express.json()) //this middle ware allows us to send JSON request with o
 app.use('/people', PeopleRouter);
 
 app.get('/', (req, res) => {
-    res.send('hello world')
+    res.send('Yo ho, Yo ho, a Hobbit"s life for me')
 })
 
 
